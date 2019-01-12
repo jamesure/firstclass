@@ -11,6 +11,7 @@
             position: relative;
             border-radius: 10px 10px 10px 10px;
             /*margin: 200px;*/
+            z-index: 0;
         }
 
         .newmsg {
@@ -22,13 +23,22 @@
             left: 53px;
             top: -3px;
         }
+        .img {
+            height: 30px;
+            width:  30px;
+            background-image: url("../../resources/img/微信.svg");
+            left: 20px;
+            position: relative;
+            z-index: 1;
+        }
 
     </style>
 </head>
-<body>
+<body style="background-color: #212121">
     <div class="wechat">
-        <div class="img"></div>
         <div class="newmsg"></div>
+        <div class="img"></div>
     </div>
+
 </body>
 </html>
