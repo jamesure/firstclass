@@ -4,41 +4,33 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .wechat {
+
+        .d1 {
             height: 60px;
             width: 60px;
+            background-image: url("../resources/img/微信.svg");
             background-color: lawngreen;
-            position: relative;
+            background-size: contain;
             border-radius: 10px 10px 10px 10px;
-            /*margin: 200px;*/
-            z-index: 0;
+            position: relative;
+            margin: 200px;
         }
 
         .newmsg {
             height: 10px;
             width: 10px;
             background-color: red;
-            position: absolute;
             border-radius: 50%;
             left: 53px;
-            top: -3px;
-            z-index: 2;
-        }
-        .img {
-            height: 30px;
-            width:  30px;
-            background-image: url("../../resources/img/微信.svg");
-            left: 20px;
+            bottom: 53px;
             position: absolute;
-            z-index: 1;
         }
-
     </style>
 </head>
-<body style="background-color: #212121">
-    <div class="wechat">
+<body>
+
+    <div class="d1">
         <div class="newmsg"></div>
-        <div class="img"></div>
     </div>
 
 </body>
