@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        #container {
+            border: 1px red solid;
+            height: 250px;
+            width: 70%;
+            display: flex;
+            /*!*flex-flow: row-reverse nowrap;*! //挤压缩放 wrap换行nowrap不换行*/
+            flex-flow: column nowrap;//挤压换行
+        }
+        .f {
+            height: 150px;
+            width: 150px;
+            color: white;
+        }
+        #d1 {
+            background-color: #00AFF0;
+        }
+        #d2 {
+            background-color: #1B5E20;
+        }
+        #d3 {
+            background-color: #FB8C00;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div class="f" id="d1">01</div>
+        <div class="f" id="d2">02</div>
+        <div class="f" id="d3">03</div>
+        <div class="f" id="d1">01</div>
+        <div class="f" id="d2">02</div>
+        <div class="f" id="d3">03</div>
+    </div>
+
+</body>
+</html>
