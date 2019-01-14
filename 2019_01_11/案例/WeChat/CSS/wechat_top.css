@@ -1,0 +1,59 @@
+.wechat_top {
+    height: 40px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-family: 微软雅黑;
+}
+
+#top_left {
+    height: 40px;
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+#top_left_text {
+    color: #707070;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#top_right {
+    height: 40px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+#search {
+    height: 35px;
+    width: 35px;
+    background-image: url("../img/chaxun.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin: 5px;
+}
+#add {
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    background-image: url("../img/add.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+#top_menu {
+    display: none;
+    height: 160px;
+    width: 120px;
+    background-color: #313131;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+}

@@ -1,0 +1,121 @@
+.single {
+    height: 35px;
+    background-color: #212121;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: white;
+    font-family: 微软雅黑;
+}
+
+#singleleft {
+    height: 35px;
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+#xinhao{
+    width: 50px;
+    height: 20px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 4px;
+}
+#xinhao div{
+    width: 3px;
+    margin-left: 3px;
+    border-radius: 1px;
+}
+#xinhao div:nth-child(1){
+    height: 6px;
+}
+#xinhao div:nth-child(2){
+    height: 10px;
+}
+#xinhao div:nth-child(3){
+    height: 14px;
+}
+#xinhao div:nth-child(4){
+    height: 18px;
+}
+.single_ok {
+    background-color: white;
+}
+.single_no {
+    background-color: gray;
+}
+#operator {
+    color: white;
+    font-size: 10px;
+}
+
+#singlemiddle {
+    height: 35px;
+    width: 120px;
+}
+#singleright {
+    height: 35px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+#battery{
+    height: 36px;
+    width: 70px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#batteryshell {
+    height: 12px;
+    width: 32px;
+    border: white 1px solid;
+    border-radius: 1px;
+}
+#batteryhead {
+    height: 6px;
+    width: 2px;
+    background-color: white;
+    border-radius: 0px 1px 1px 0px;
+}
+#batterypower {
+    height: 10px;
+    width: 16px;
+    background-color: red;
+    margin: 1px;
+    animation: charge 5s linear infinite;
+}
+@keyframes charge {
+    0% {
+        background-color: red;
+        width: 1px;
+    }
+
+    20% {
+        background-color: yellow;
+        width: 7px;
+    }
+
+    80% {
+        background-color: yellow;
+        width : 26px;
+    }
+    100% {
+        background-color: green;
+        width : 30px;
+    }
+}
+#wififrame {
+    height:20px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/wifi.svg");
+    background-position: center;
+    background-size: contain;
+}

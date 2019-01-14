@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="../CSS/common.css" rel="stylesheet">
+    <link href="../CSS/container.css" rel="stylesheet">
+    <link href="../CSS/signal.css" rel="stylesheet">
+    <link href="../CSS/wechat_top.css" rel="stylesheet">
+    <link href="../CSS/wechat_middle.css" rel="stylesheet">
+    <link href="../CSS/wechat_down.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <!-- 信号层start -->
+        <div class="single">
+            <div id="singleleft" class="">
+
+                    <div id="xinhao" class="">
+                        <div class="single_ok"></div>
+                        <div class="single_ok"></div>
+                        <div class="single_ok"></div>
+                        <div class="single_no"></div>
+                    </div>
+                    <div id="operator" class="xy-center">SIM1中国移动<br>SIM2中国联通</div>
+            </div>
+
+            <div id="singlemiddle" class="xy-center">
+                <div>15 : 43</div>
+            </div>
+
+            <div id="singleright" class="">
+                <div id="wififrame"class="">
+                    <div id="wifi">
+                    </div>
+                </div>
+                <div id="battery">
+                    <div id="batteryshell"class="">
+                        <div id="batterypower"></div>
+                    </div>
+                <div id="batteryhead"></div>
+               </div>
+            </div>
+        </div>
+        <!-- 信号层end -->
+        <!-- top   start -->
+        <div class="wechat_top">
+
+            <div id="top_left"class="">
+                <div id="top_left_text">微信</div>
+            </div>
+
+            <div id="top_right"class="xy-center">
+                <div id="search"class=""></div>
+                <div id="add"class=""></div>
+
+                <div id="top_menu" class="border"></div>
+
+            </div>
+        </div>
+        <!-- top   end -->
+        <!-- middle   start -->
+        <div class="wechat_middle">
+            <div id="chatframe">
+            </div>
+        </div>
+        <!-- middle    end -->
+        <div class="wechat_down"></div>
+
+
+    </div>
+
+</body>
+</html>
+
+
+<script>
+
+    $(function(){
+
+        $("#top_right").click(function(){
+
+            $("#top_menu").toggle(400);
+
+        })
+
+    })
+
+
+</script>
