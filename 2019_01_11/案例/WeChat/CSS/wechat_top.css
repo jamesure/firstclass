@@ -55,5 +55,75 @@
     background-color: #313131;
     position: absolute;
     right: 10px;
-    top: 60px;
+    top: 50px;
+    flex-flow: column;
 }
+
+#top_menu_1 {
+    height: 32px;
+    width: 50px;
+    position: relative;
+}
+#top_menu_2 {
+    height: 32px;
+    width: 50px;
+
+}
+#top_menu_3 {
+    height: 32px;
+    width: 50px;
+
+}
+#top_menu_4 {
+    height: 32px;
+    width: 50px;
+
+}
+#top_menu_5 {
+    height: 32px;
+    width: 50px;
+
+}
+#qunliao {
+    height:25px;
+    width: 25px;
+    background-image: url("../img/qunliao.svg");
+    background-position: center;
+    background-size: contain;
+    margin: 2px;
+    background-repeat: no-repeat;
+}
+#添加朋友 {
+    height:25px;
+    width: 25px;
+    background-image: url("../img/添加朋友.svg");
+    background-position: center;
+    background-size: contain;
+    margin: 2px;
+}
+#扫一扫 {
+    height:25px;
+    width: 25px;
+    background-image: url("../img/扫一扫.svg");
+    background-position: center;
+    background-size: contain;
+    margin: 2px;
+}
+#收付款 {
+    height:25px;
+    width: 25px;
+    background-image: url("../img/收付款.svg");
+    background-position: center;
+    background-size: contain;
+    margin: 2px;
+}
+#反馈 {
+    height:25px;
+    width: 25px;
+    background-image: url("../img/反馈.svg");
+    background-position: center;
+    background-size: contain;
+    margin: 2px;
+}
+
+
