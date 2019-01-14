@@ -49,7 +49,11 @@
 }
 
 #top_menu {
-    display: none;
+
+
+    display: flex;
+
+
     height: 160px;
     width: 120px;
     background-color: #313131;
@@ -61,27 +65,27 @@
 
 #top_menu_1 {
     height: 32px;
-    width: 50px;
+    width: 119px;
     position: relative;
 }
 #top_menu_2 {
     height: 32px;
-    width: 50px;
+    width: 119px;
 
 }
 #top_menu_3 {
     height: 32px;
-    width: 50px;
+    width: 119px;
 
 }
 #top_menu_4 {
     height: 32px;
-    width: 50px;
+    width: 119px;
 
 }
 #top_menu_5 {
     height: 32px;
-    width: 50px;
+    width: 119px;
 
 }
 #qunliao {
@@ -100,6 +104,7 @@
     background-position: center;
     background-size: contain;
     margin: 2px;
+    background-repeat: no-repeat;
 }
 #扫一扫 {
     height:25px;
@@ -108,6 +113,7 @@
     background-position: center;
     background-size: contain;
     margin: 2px;
+    background-repeat: no-repeat;
 }
 #收付款 {
     height:25px;
@@ -116,6 +122,7 @@
     background-position: center;
     background-size: contain;
     margin: 2px;
+    background-repeat: no-repeat;
 }
 #反馈 {
     height:25px;
@@ -124,6 +131,7 @@
     background-position: center;
     background-size: contain;
     margin: 2px;
+    background-repeat: no-repeat;
 }
 
 
