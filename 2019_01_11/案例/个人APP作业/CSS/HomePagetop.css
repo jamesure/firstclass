@@ -1,0 +1,6 @@
+.HomePagetop {
+    height: 50px;
+    display: flex;
+    flex-flow: row;
+    background-color: #FFECB3;
+}

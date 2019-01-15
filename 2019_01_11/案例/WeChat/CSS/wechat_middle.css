@@ -72,6 +72,8 @@
     color: gray;
     font-size: 14px;
     line-height: 28px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .mute {
     width: 70px;
