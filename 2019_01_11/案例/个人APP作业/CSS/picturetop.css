@@ -1,4 +1,52 @@
 .picturetop {
-    height: 150px;
-    background-color: #00AFF0;
+    height: 160px;
+    background-image: url("../img/picturetop1.jpg");
+    background-size:100% 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#fourpoint {
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#point1 {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: ghostwhite;
+}
+#point2 {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: grey;
+    opacity: .6;
+}
+#point3 {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: grey;
+    opacity: .6;
+}
+#point4 {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: grey;
+    opacity: .6;
 }

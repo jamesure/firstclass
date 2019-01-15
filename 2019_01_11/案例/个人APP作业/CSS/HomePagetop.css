@@ -2,5 +2,86 @@
     height: 50px;
     display: flex;
     flex-flow: row;
-    background-color: #FFECB3;
+    background-color: #F5F5F5;
+    justify-content: space-between;
 }
+
+#headportrait {
+    width: 55px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search {
+    height: 50px;
+    width: 200px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+#searchframe {
+    height: 25px;
+    width: 250px;
+    border-radius: 50px;
+    margin-bottom: 9px;
+    margin-right: 5px;
+    background-image: url("../img/search.svg");
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: contain;
+    background-size:14px 14px;
+    background-position: center;
+    background-color: #E0E0E0;
+    display: flex;
+    flex: 1;
+    box-shadow:0px 0px 1px grey;
+
+}
+/*#searchtext {*/
+    /*font-size: 5px;*/
+    /*color: #707070;*/
+    /*text-align: center;*/
+    /*transform: translate(25px);*/
+    /*margin-top: 5px;*/
+/*}*/
+
+
+#saoyisaoframe {
+    height: 50px;
+    display: flex;
+}
+#saoyisao {
+    height: 30px;
+    width:30px;
+    background-image: url("../img/扫码.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 6px;
+    margin-right: 5px;
+}
+
+#headmenu {
+    height: 45px;
+    width: 25px;
+    background-image: url("../img/菜单.svg");
+    background-size: contain;
+    background-size:80%;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 12px;
+}
+#headframe {
+    height: 40px;
+    width: 30px;
+    background-image: url("../img/用户.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    margin-bottom: 10px;
+    transform: translate(-10px);
+}
+
