@@ -1,5 +1,114 @@
 .HomePagemiddle {
     height: 400px;
     display: flex;
-    background-color: #01579B;
+    flex: 1;
+    background-color: whitesmoke;
+    font-family: 微软雅黑;
+}
+
+#row {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+#first_row {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+#first_row_left {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+
+}
+#first_row_left_top {
+    height: 30px;
+}
+#first_row_left_top_text {
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#first_row_left_down {
+    height: 25px;
+}
+#first_row_left_down_text {
+    font-size: 9px;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #707070;
+}
+
+
+
+
+#first_row_right {
+    width: 30%;
+    display: flex;
+    flex-flow: row;
+}
+#first_row_right_left {
+    height: 50px;
+    width: 50%;
+
+}
+#first_row_right_left_button {
+    height: 25px;
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.first_row_button_text {
+    color: #03A9F4;
+    font-size: 5px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+#first_row_right_right {
+    height: 50px;
+    width: 50%;
+}
+#first_row_right_right_button {
+    height: 25px;
+    width: 30px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+#first_row_right_right_button:hover {
+    background-color: #2196F3;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#second_row {
+    height: 60px;
+    width: 100%;
+}
+#third_row {
+    height: 60px;
+    width: 100%;
+}
+#fourth_row {
+    height: 60px;
+    width: 100%;
+}
+#fifth_row {
+    height: 60px;
+    width: 100%;
 }
