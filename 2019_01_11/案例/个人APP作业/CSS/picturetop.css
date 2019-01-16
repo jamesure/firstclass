@@ -4,11 +4,13 @@
     flex-flow: row;
     justify-content: space-between;
     position: relative;
+    z-index: 4;
+
 }
 #picture {
     height: 100%;
     width: 100%;
-    background-image: url("../img/picturetop1.jpg");
+    background-image: url("../page/1.jpg");
     background-size:100% 100%;
     background-position: center;
     background-repeat: no-repeat;

@@ -49,6 +49,8 @@
         </div>
         <!-- 信号层end -->
 
+        <div id="TOPpictureTOP" style="">
+
         <!-- T O P 层  start-->
         <div class="HomePagetop">
             <div id="headportrait" class="">
@@ -92,6 +94,8 @@
 
         </div>
         <!-- picturetop  end -->
+
+        </div>
 
         <!-- Page middle start -->
         <div class="HomePagemiddle">
@@ -158,6 +162,7 @@
 
                 </div>
                 <!-- 第三行   end -->
+
                 <!-- 第四行   start -->
                 <div id="fourth_row" class="">
 
@@ -179,6 +184,7 @@
                 </div>
                 <!-- 第四行   end -->
 
+                <!-- 第五行   start -->
                 <div id="fifth_row" class="">
 
                     <div class="underline" class=""></div>
@@ -195,6 +201,7 @@
                     </div>
 
                 </div>
+                <!-- 第五行   start -->
 
             </div>
         </div>
@@ -208,6 +215,7 @@
         </div>
         <!-- picturedown  end -->
 
+        <!-- 最下边的菜单栏   start -->
         <div class="HomePagedown">
             <div id="shouye" class=""></div>
             <div id="caidan" class=""></div>
@@ -215,27 +223,61 @@
             <div id="gouwuche" class=""></div>
             <div id="wode" class=""></div>
         </div>
+        <!-- 最下边的菜单栏   end -->
 
     </div>
 </body>
 </html>
 
-<script src="../js/frame/jquery.js"></script>
-
-<!--<script>-->
-    <!--$(function() {-->
-
-        <!--$(".picturetop").load("../page/first_picture.html")-->
+<script src="jquery.js"></script>
 
 
-        <!--$("#point1").click(function () {-->
-            <!--$(".picturetop").load("../page/first_picture.html");-->
-        <!--});-->
-        <!--$("#point2").click(function () {-->
-            <!--$("picturetop").load("../page/second_picture.html");-->
-        <!--})-->
-    <!--})-->
+<script>
+    let index = 2;
+
+    let task;
+
+    function loadImg() {
+        if (index === 5) index = 1;
+        $("#picture").css("background-image", "url("+index+".jpg)");
+        index++;
+    }
+
+    $(function(){ //当页面加载时
+
+        task = setInterval("loadImg()" , 2000); //启动定时器
+
+        $("#picture").mouseover(function(){ //鼠标经过
+            window.clearInterval(task);
+        });
+
+        $("#picture").mouseout(function(){ //鼠标移出
+            task = setInterval("loadImg()", 1000);
+        })
+
+    })
 
 
 
-<!--</script>-->
+    // <!--******************  自己瞎写  *************************-->
+    //
+    // function change_point() {
+    //     if (index === 4) index = 1;
+    //     $("#point+index").css("background-color","ghostwhite");
+    //     index++;
+    // }
+    // $(function(){ //当页面加载时
+    //
+    //     task = setInterval("change_point()" , 2000); //启动定时器
+    //
+    // })
+    //
+    //
+    //
+    //
+    //
+
+
+
+
+</script>

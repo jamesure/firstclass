@@ -1,0 +1,6 @@
+#TOPpictureTOP {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    justify-content: space-around;
+}
