@@ -84,16 +84,20 @@
 #leftbutton {
     height: 80%;
     flex: 1;
-    border-radius: 20px;
+    border-radius: 35px 15px 15px 35px;
     box-shadow: 0px 0px 2px;
     margin-left: 1px;
     background-color: white;
+}
+#leftbutton:hover {
+    background-color: #212121;
+    transform: scale(1.10);
 }
 
 #rightbutton {
     height: 80%;
     flex: 1;
-    border-radius: 20px;
+    border-radius: 15px 35px 35px 15px;
     box-shadow: 0px 0px 2px;
     margin-right: 1px;
 
@@ -177,7 +181,7 @@
     justify-content: center;
 }
 #second_picture {
-    height: 62%;
+    height: 60%;
     width: 30%;
     border-radius:50%;
     background-image: url("../img/咖啡.svg");
@@ -242,7 +246,7 @@
     justify-content: center;
 }
 #third_picture {
-    height: 62%;
+    height: 60%;
     width: 30%;
     border-radius:50%;
     background-image: url("../img/优惠券.svg");
@@ -278,6 +282,7 @@
     display: flex;
     flex-flow: row;
     position: relative;
+    flex: 1;
 }
 #fourth_row_left {
     width: 70%;
@@ -319,7 +324,7 @@
     justify-content: center;
 }
 #fourth_picture {
-    height: 62%;
+    height: 60%;
     width: 30%;
     border-radius:50%;
     background-image: url("../img/礼物 活动.svg");
@@ -353,6 +358,7 @@
     display: flex;
     flex-flow: row;
     position: relative;
+    flex: 1;
 }
 #fifth_row_left {
     width: 70%;
@@ -394,7 +400,7 @@
     justify-content: center;
 }
 #fifth_picture {
-    height: 62%;
+    height: 60%;
     width: 30%;
     border-radius:50%;
     background-image: url("../img/企业服务.svg");

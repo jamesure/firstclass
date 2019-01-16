@@ -1,4 +1,49 @@
 .HomePagedown {
-    height: 60px;
-    background-color: blueviolet;
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
 }
+#shouye {
+    width: 20%;
+    flex: 1;
+    background-image: url("../img/shouye.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#caidan {
+    width: 20%;
+    flex: 1;
+    background-image: url("../img/caidan.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin-top: 2px;
+}
+#dingdan {
+    width: 20%;
+    flex: 1;
+    background-image: url("../img/dingdan.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#gouwuche {
+    width: 20%;
+    flex: 1;
+    background-image: url("../img/gouwuche.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#wode {
+    width: 20%;
+    flex: 1;
+    background-image: url("../img/wode.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+

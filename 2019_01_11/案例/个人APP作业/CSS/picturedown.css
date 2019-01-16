@@ -1,4 +1,22 @@
 .picturedown {
-    height: 80px;
-    background-color: greenyellow;
+    height: 60px;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+#picture_down_frame {
+    height: 80%;
+    width: 70%;
+    border-radius: 5px;
+    background-image: url("../img/picturedown.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.picturedownborder {
+border: 5px #E0E0E0 solid;
+border-left: none;
+border-right: none;
+border-top: none;
 }
