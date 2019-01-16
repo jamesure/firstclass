@@ -125,10 +125,10 @@
 }
 #wififrame {
     height:15px;
-    width: 15px;
+    width: 14px;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/wifi.svg");
+    background-image: url("../../img/wifi.svg");
     background-position: center;
     background-size: contain;
     margin-bottom: 5px;
@@ -140,10 +140,11 @@
     width: 18px;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/闹钟.svg");
+    background-image: url("../../img/闹钟.svg");
     background-position: center;
     background-size: contain;
     margin-bottom: 5px;
+    margin-left: 5px;
     transform: translate(20px);
     z-index: 1;
 }
@@ -153,10 +154,11 @@
     width: 18px;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/音量-高.svg");
+    background-image: url("../../img/音量-高.svg");
     background-position: center;
     background-size: contain;
     margin-bottom: 5px;
+    margin-left: 5px;
     transform: translate(-25px);
     z-index: 1;
 }

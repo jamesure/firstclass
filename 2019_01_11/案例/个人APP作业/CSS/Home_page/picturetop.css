@@ -10,7 +10,7 @@
 #picture {
     height: 100%;
     width: 100%;
-    background-image: url("../page/1.jpg");
+    background-image: url("../../page/1.jpg");
     background-size:100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@
     border-radius: 50%;
     margin: 5px;
     background-color: grey;
-    opacity: .6;
+    opacity: .8;
 }
 #point3 {
     height: 5px;
@@ -52,7 +52,7 @@
     border-radius: 50%;
     margin: 5px;
     background-color: grey;
-    opacity: .6;
+    opacity: .8;
 }
 #point4 {
     height: 5px;
@@ -60,7 +60,7 @@
     border-radius: 50%;
     margin: 5px;
     background-color: grey;
-    opacity: .6;
+    opacity: .8;
 }
 /*#lefticon {*/
     /*height: 40px;*/
@@ -78,7 +78,7 @@
 #picturetoplefticon {
     height: 50px;
     width: 100%;
-    background-image: url("../img/left_icon.svg");
+    background-image: url("../../img/left_icon.svg");
 
     background-size: 5%;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@
 #picturetoprighticon {
     height: 50px;
     width: 100%;
-    background-image: url("../img/right_icon.svg");
+    background-image: url("../../img/right_icon.svg");
     background-size: 5%;
     background-repeat: no-repeat;
     background-position: right;

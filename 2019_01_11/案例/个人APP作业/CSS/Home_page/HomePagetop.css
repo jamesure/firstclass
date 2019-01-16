@@ -31,7 +31,7 @@
     border-radius: 50px;
     margin-bottom: 9px;
     margin-right: 5px;
-    background-image: url("../img/search.svg");
+    background-image: url("../../img/search.svg");
     background-repeat: no-repeat;
     align-items: center;
     /*background-size: contain;*/
@@ -59,7 +59,7 @@
 #saoyisao {
     height: 30px;
     width:30px;
-    background-image: url("../img/扫码.svg");
+    background-image: url("../../img/扫码.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -70,7 +70,7 @@
 #headmenu {
     height: 45px;
     width: 25px;
-    background-image: url("../img/菜单.svg");
+    background-image: url("../../img/菜单.svg");
     background-size: contain;
     background-size:80%;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 #headframe {
     height: 40px;
     width: 30px;
-    background-image: url("../img/用户.svg");
+    background-image: url("../../img/用户.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

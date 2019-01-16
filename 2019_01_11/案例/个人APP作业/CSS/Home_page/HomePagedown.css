@@ -8,7 +8,7 @@
 #shouye {
     width: 20%;
     flex: 1;
-    background-image: url("../img/shouyepress.jpg");
+    background-image: url("../../img/shouyepress.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;
@@ -16,7 +16,7 @@
 #caidan {
     width: 20%;
     flex: 1;
-    background-image: url("../img/caidan.png");
+    background-image: url("../../img/caidan.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;
@@ -25,7 +25,7 @@
 #dingdan {
     width: 20%;
     flex: 1;
-    background-image: url("../img/dingdan.png");
+    background-image: url("../../img/dingdan.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;
@@ -33,7 +33,7 @@
 #gouwuche {
     width: 20%;
     flex: 1;
-    background-image: url("../img/gouwuche.png");
+    background-image: url("../../img/gouwuche.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;
@@ -41,7 +41,7 @@
 #wode {
     width: 20%;
     flex: 1;
-    background-image: url("../img/wode.png");
+    background-image: url("../../img/wode.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;

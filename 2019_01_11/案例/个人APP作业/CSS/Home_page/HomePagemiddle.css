@@ -80,27 +80,24 @@
     align-items: center;
     justify-content: space-between;
     border-radius: 50px;
+    box-shadow:  inset 0px 0px 2px;
 }
 #leftbutton {
     height: 80%;
     flex: 1;
     border-radius: 35px 15px 15px 35px;
-    box-shadow: 0px 0px 2px;
-    margin-left: 1px;
+    box-shadow:0px 0px 2px;
+    margin-left: 3px;
     background-color: white;
 }
 
-#leftbutton:hover {
-    background-color: #212121;
-    transform: scale(1.10);
-}
 
 #rightbutton {
     height: 80%;
     flex: 1;
     border-radius: 15px 35px 35px 15px;
-    box-shadow: 0px 0px 2px;
-    margin-right: 1px;
+    box-shadow:0px 0px 2px;
+    margin-right: 3px;
 
 }
 
@@ -185,7 +182,7 @@
     height: 60%;
     width: 30%;
     border-radius:50%;
-    background-image: url("../img/咖啡.svg");
+    background-image: url("../../img/咖啡.svg");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -250,7 +247,7 @@
     height: 60%;
     width: 30%;
     border-radius:50%;
-    background-image: url("../img/优惠券.svg");
+    background-image: url("../../img/优惠券.svg");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -328,7 +325,7 @@
     height: 60%;
     width: 30%;
     border-radius:50%;
-    background-image: url("../img/礼物 活动.svg");
+    background-image: url("../../img/礼物 活动.svg");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;
@@ -404,7 +401,7 @@
     height: 60%;
     width: 30%;
     border-radius:50%;
-    background-image: url("../img/企业服务.svg");
+    background-image: url("../../img/企业服务.svg");
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center;

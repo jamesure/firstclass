@@ -2,7 +2,7 @@
 
     display: flex;
     flex: 1;
-    background-image: url("../img/Signintop1.jpg");
+    background-image: url("../../img/Signintop1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     margin-top: 100px;
     border-radius: 50%;
     margin-bottom: 70px;
-    background-image: url("../img/鹿.svg");
+    background-image: url("../../img/鹿.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -1,0 +1,10 @@
+#caidan_title {
+    height: 50px;
+    display: flex;
+}
+#caidan_title_text {
+    height: 30px;
+    width: 80%;
+    font-size: 15px;
+    color: #212121;
+ }
