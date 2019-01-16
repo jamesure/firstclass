@@ -11,16 +11,27 @@
     width: 70%;
     margin-bottom: 30px;
     border-radius: 10px;
+    background-color:#BDBDBD ;
+    box-shadow: inset 0px 0px 3px;
+    display: flex;
+    align-items: center;
 }
-
-.Sign_text {
-    font-size: 20px;
-    font-weight: 600;
-    color:#757575 ;
-}
-
 #password {
     height: 40px;
     width: 70%;
     border-radius: 10px;
+    background-color:#BDBDBD ;
+    box-shadow: inset 0px 0px 3px;
+    display: flex;
+    align-items: center;
+
 }
+
+
+
+.Sign_middletext {
+     font-size: 10px;
+     font-weight: 500;
+     color:#757575 ;
+    margin-left: 10px;
+ }
