@@ -1,0 +1,12 @@
+#Sign_in_button {
+    height: 100px;
+
+}
+
+#Sign_button {
+    height: 70px;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px;
+    background-color: #212121;
+}

@@ -1,0 +1,26 @@
+#Sign_in_middle {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#e-mail {
+    height: 40px;
+    width: 70%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.Sign_text {
+    font-size: 20px;
+    font-weight: 600;
+    color:#757575 ;
+}
+
+#password {
+    height: 40px;
+    width: 70%;
+    border-radius: 10px;
+}
