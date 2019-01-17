@@ -107,3 +107,25 @@
     background-position: center;
     background-size: 100% 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#common_coffee_picture2 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../img/coffee奥瑞白.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,4 +1,10 @@
-#index_change {
+#index_change1 {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+}
+
+#index_change2 {
     display: flex;
     flex-flow: column;
     flex: 1;

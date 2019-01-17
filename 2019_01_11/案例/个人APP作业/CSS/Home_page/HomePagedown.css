@@ -1,47 +1,49 @@
-.HomePagedown {
+#HomePagedown {
     height: 55px;
-    width: 100%;
+
     background-color: white;
     display: flex;
     flex-flow: row;
 }
-#shouye {
+
+
+.shouye {
     width: 20%;
     flex: 1;
-    background-image: url("../../img/shouyepress.jpg");
+    /*background-image: url("../../img/shouyepress.jpg");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
-#caidan {
+.caidan {
     width: 20%;
     flex: 1;
-    background-image: url("../../img/caidan.png");
+    /*background-image: url("../../img/caidan.png");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;
     margin-top: 2px;
 }
-#dingdan {
+.dingdan {
     width: 20%;
     flex: 1;
-    background-image: url("../../img/dingdan.png");
+    /*background-image: url("../../img/dingdan.png");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
-#gouwuche {
+.gouwuche {
     width: 20%;
     flex: 1;
-    background-image: url("../../img/gouwuche.png");
+    /*background-image: url("../../img/gouwuche.png");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;
 }
-#wode {
+.wode {
     width: 20%;
     flex: 1;
-    background-image: url("../../img/wode.png");
+    /*background-image: url("../../img/wode.png");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px 50px;

@@ -13,10 +13,16 @@
     <link href="../CSS/Home_page/picturetop.css" rel="stylesheet">
     <link href="../CSS/Home_page/picturedown.css" rel="stylesheet">
     <link href="../CSS/container.css" rel="stylesheet">
+    <link href="../CSS/caidan/caidan_title.css" rel="stylesheet">
+    <link href="../CSS/caidan/caidan_middle.css" rel="stylesheet">
+    <link href="../CSS/caidan/caidan_down.css" rel="stylesheet">
+    <link href="../CSS/Home_page/signal.css" rel="stylesheet">
+    <link href="../CSS/caidan/index_change.css" rel="stylesheet">
+    <link href="../CSS/caidan/common_coffee.css" rel="stylesheet">
 
 </head>
 <body>
-    <div id="container">
+    <div id="container" class="">
 
         <!-- 信号层start -->
         <div class="single">
@@ -48,6 +54,8 @@
             </div>
         </div>
         <!-- 信号层end -->
+
+        <div id="index_change1" class="">
 
         <div id="TOPpictureTOP" style="">
 
@@ -215,13 +223,19 @@
         </div>
         <!-- picturedown  end -->
 
+        </div>
+
         <!-- 最下边的菜单栏   start -->
-        <div class="HomePagedown">
-            <div id="shouye" class=""></div>
-            <div id="caidan" class=""></div>
-            <div id="dingdan" class=""></div>
-            <div id="gouwuche" class=""></div>
-            <div id="wode" class=""></div>
+        <div id="HomePagedown">
+
+
+                <div class="shouye" data-normal="../img/shouye.jpg" data-press="../img/shouyepress.jpg" data-url="../page/HomePage.html"></div>
+                <div class="caidan" data-normal="../img/caidan.png" data-press="../img/caidanpress.jpg" data-url="../page/caidan.html"></div>
+                <div class="dingdan" data-normal="../img/dingdan.png" data-press="../img/dingdanpress.png" data-url="../page/dingdan.html"></div>
+                <div class="gouwuche" data-normal="../img/gouwuche.png" data-press="../img/gouwuchepress.png" data-url="../page/gouwuche.html"></div>
+                <div class="wode" data-normal="../img/wode.png" data-press="../img/wodepress.png" data-url="../page/wode.html"></div>
+
+
         </div>
         <!-- 最下边的菜单栏   end -->
 
@@ -243,39 +257,50 @@
         index++;
     }
 
-    $(function(){ //当页面加载时
+    $(function() {
 
-        task = setInterval("loadImg()" , 2000); //启动定时器
+        //当页面加载时
 
-        $("#picture").mouseover(function(){ //鼠标经过
+        task = setInterval("loadImg()", 2000); //启动定时器
+
+        $("#picture").mouseover(function () { //鼠标经过
             window.clearInterval(task);
         });
 
-        $("#picture").mouseout(function(){ //鼠标移出
+        $("#picture").mouseout(function () { //鼠标移出
             task = setInterval("loadImg()", 1000);
         })
 
+
+
+
+
+
+        /*  控制底部图片*/
+        $("#HomePagedown div").each(function () {
+            $(this).css('background-image', 'url(' + $(this).data("normal") + ')').css('background-size');
+
+        });
+
+        //当点击每一个
+        $("#HomePagedown").click(function () {
+
+            //让所有按钮的背景  再次变为 normal 状态
+            $("#HomePagedown").each(function () {
+                $(this).css('background-image', 'url(' + $(this).data("normal") + ')');
+            });
+            //让被点击的层切换为  press
+            $(this).css('background-image', 'url(' + $(this).data("press") + ')');
+
+            //
+            $("#index_change1").load($(this).data("url"))
+
+
+        });
+
+
     })
 
-
-
-    // <!--******************  自己瞎写  *************************-->
-    //
-    // function change_point() {
-    //     if (index === 4) index = 1;
-    //     $("#point+index").css("background-color","ghostwhite");
-    //     index++;
-    // }
-    // $(function(){ //当页面加载时
-    //
-    //     task = setInterval("change_point()" , 2000); //启动定时器
-    //
-    // })
-    //
-    //
-    //
-    //
-    //
 
 
 
