@@ -2,6 +2,7 @@
     flex: 1;
     display: flex;
     flex-flow: row;
+    background-color: white;
 }
 
 #one_coffee {
@@ -24,6 +25,7 @@
     display: flex;
     flex-flow: column;
     margin-right: 5px;
+    background-color: whitesmoke;
 }
 
 #caidan_middle_left_1 {
@@ -32,35 +34,35 @@
 }
 #caidan_middle_left_2 {
     height: 32px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 #caidan_middle_left_3 {
     height: 32px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 #caidan_middle_left_4 {
     height: 32px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 #caidan_middle_left_5 {
      height: 32px;
-     background-color: white;
+     background-color: whitesmoke;
 }
 #caidan_middle_left_6 {
     height: 32px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 #caidan_middle_left_7 {
     height: 32px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 #caidan_middle_left_8 {
     height: 32px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 #caidan_middle_left_9 {
     height: 32px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .caidan_middle_left_text {

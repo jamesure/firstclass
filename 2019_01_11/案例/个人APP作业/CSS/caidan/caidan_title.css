@@ -1,6 +1,7 @@
 #caidan_title {
     height: 50px;
     display: flex;
+    background-color: white;
 }
 #caidan_title_text {
     height: 30px;

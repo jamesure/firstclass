@@ -3,17 +3,29 @@
     display: flex;
     align-items: center;
     flex-flow: row;
+    position: relative;
 }
+.common_coffee_underline {
+    position: absolute;
+    width:96%;
+    height: 100%;
+    border: #EEEEEE 1px solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
 
 .common_coffee_left {
     height: 60px;
     width: 60px;
     border-radius: 10px;
+    overflow: hidden;
 }
 #common_coffee_picture1 {
     height: 100%;
     width: 100%;
-    background-image: url("");
+    background-image: url("../../img/coffee榛果拿铁.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -32,6 +44,7 @@
     flex: 1;
     display: flex;
     flex-flow: column;
+    margin-left: 5px;
 }
 
 .common_coffee_name {
@@ -81,4 +94,16 @@
 .common_right {
     height: 60px;
     width: 10%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+
+}
+.add_gouwuche {
+    height: 15px;
+    width: 15px;
+    background-image: url("../../img/add_gouwuche.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
