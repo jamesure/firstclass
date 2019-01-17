@@ -1,0 +1,181 @@
+#caidan_middle {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+
+#caidan_middle_left {
+    width: 25%;
+    display: flex;
+    flex-flow: column;
+    margin-right: 5px;
+}
+
+#caidan_middle_left_1 {
+    height: 32px;
+    background-color: white;
+}
+#caidan_middle_left_2 {
+    height: 32px;
+    background-color: white;
+}
+#caidan_middle_left_3 {
+    height: 32px;
+    background-color: white;
+}
+#caidan_middle_left_4 {
+    height: 32px;
+    background-color: white;
+}
+#caidan_middle_left_5 {
+     height: 32px;
+     background-color: white;
+}
+#caidan_middle_left_6 {
+    height: 32px;
+    background-color: white;
+}
+#caidan_middle_left_7 {
+    height: 32px;
+    background-color: white;
+}
+#caidan_middle_left_8 {
+    height: 32px;
+    background-color: white;
+}
+#caidan_middle_left_9 {
+    height: 32px;
+    background-color: white;
+}
+
+.caidan_middle_left_text {
+    height: 25px;
+    width: 58px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.border_for_caidan_left {
+    border:1px solid #E0E0E0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#caidan_middle_right {
+    width: 75%;
+    display: flex;
+    flex-flow: column;
+    margin-left: 5px;
+}
+#caidan_middle_right_row1_title {
+    height: 20px;
+    display: flex;
+    flex-flow: row;
+}
+#caidan_middle_right_row1_title_left {
+    width: 20%;
+}
+#caidan_middle_right_row1_title_right {
+    width: 80%;
+    height: 50%;
+
+}
+.caidan_middle_title_border {
+    border: #E0E0E0 1px solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+
+
+
+
+#caidan_middle_right_row1_middle{
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+}
+#caidan_middle_right_row1_middle_left{
+    width: 60px;
+}
+.caidan_coffee_picture {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../img/coffee拿铁.jpg");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+
+
+
+#caidan_middle_right_row1_middle_middle {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    margin-left: 5px;
+}
+#coffee_name {
+    height: 20px;
+    display: flex;
+    justify-content:left ;
+    align-items: center;
+}
+
+.coffee_name_text {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+#coffee_englishname {
+    height: 10px;
+    justify-content:left ;
+
+}
+#coffee_size {
+    height: 10px;
+    justify-content:left ;
+    align-items: center;
+}
+#coffee_prise {
+    flex: 1;
+    justify-content:left ;
+    align-items: center;
+}
+.coffee_prise_text {
+    font-size: 5px;
+    font-weight: bold;
+    align-items: end;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+
+
+
+
+#caidan_middle_right_row1_middle_right {
+    width: 10%;
+}
+
+#add_gouwuche {
+
+}
