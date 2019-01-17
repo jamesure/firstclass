@@ -6,10 +6,17 @@
 
 #one_coffee {
     position: relative;
-
+    height: 20%;
 }
 #caidan_middle_one_coffee_underline {
     position: absolute;
+    width:96%;
+    height: 100%;
+    border: #EEEEEE 1px solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
 }
 
 #caidan_middle_left {
@@ -148,11 +155,7 @@
     align-items: center;
 }
 
-.coffee_name_text {
-    font-size: 12px;
-    font-weight: bold;
-    color: black;
-}
+
 #coffee_englishname {
     height: 10px;
     justify-content:left ;
@@ -167,13 +170,6 @@
     flex: 1;
     justify-content:left ;
     align-items: center;
-}
-.coffee_prise_text {
-    font-size: 5px;
-    font-weight: bold;
-    align-items: end;
-    justify-content: left;
-    margin-top: 10px;
 }
 
 
@@ -195,3 +191,12 @@
     background-position: center;
     background-size: 100% 100%;
 }
+
+
+
+
+
+
+
+
+
