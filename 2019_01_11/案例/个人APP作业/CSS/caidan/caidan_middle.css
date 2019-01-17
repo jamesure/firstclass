@@ -4,6 +4,14 @@
     flex-flow: row;
 }
 
+#one_coffee {
+    position: relative;
+
+}
+#caidan_middle_one_coffee_underline {
+    position: absolute;
+}
+
 #caidan_middle_left {
     width: 25%;
     display: flex;
@@ -174,8 +182,16 @@
 
 #caidan_middle_right_row1_middle_right {
     width: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
 }
 
 #add_gouwuche {
-
+    height: 15px;
+    width: 15px;
+    background-image: url("../../img/add_gouwuche.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
