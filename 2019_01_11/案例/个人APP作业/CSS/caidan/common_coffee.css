@@ -110,7 +110,22 @@
 
 
 
-
+.caidan_coffee_picture4 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../img/coffee标准美式.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.caidan_coffee_picture8 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../img/coffee抹茶拿铁.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 
 
@@ -122,9 +137,42 @@
 
 
 #common_coffee_picture2 {
+     height: 100%;
+     width: 100%;
+     background-image: url("../../img/coffee奥瑞白.jpg");
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+
+#common_coffee_picture5 {
     height: 100%;
     width: 100%;
-    background-image: url("../../img/coffee奥瑞白.jpg");
+    background-image: url("../../img/coffee加浓美式.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#common_coffee_picture6 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../img/coffee焦糖标准美式.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#common_coffee_picture7 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../img/coffee黑金气泡美式.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#common_coffee_picture10 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../img/coffee红茶拿铁.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
