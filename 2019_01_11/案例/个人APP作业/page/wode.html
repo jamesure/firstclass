@@ -3,8 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link href="../CSS/common.css" rel="stylesheet">
+    <link href="../CSS/container.css" rel="stylesheet">
+
+    <link href="../CSS/caidan/index_change.css" rel="stylesheet">
+
+    <link href="../CSS/Home_page/HomePagedown.css" rel="stylesheet">
+
+
+
+
+
+
+
+
 </head>
 <body>
 
+
+<div id="container" class="">
+
+    <div id="index_change1">
+
+
+        ##########################
+
+
+
+
+    </div>
+
+
+
+    <div class="HomePagedown" style="margin-bottom: 20px">
+        <div class="shouye" style="background-image: url(../img/shouye.jpg)"></div>
+        <div class="caidan" style="background-image: url(../img/caidan.png)"></div>
+        <div class="dingdan" style="background-image: url(../img/dingdan.png)"></div>
+        <div class="gouwuche" style="background-image: url(../img/gouwuche.png)"></div>
+        <div class="wode" style="background-image: url(../img/wodepress.png)"></div>
+    </div>
+
+
+</div>
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="jquery.js"></script>
+
+<script>
+    $(function() {
+
+
+        //各页面元素变化
+
+        $(".shouye").click(function () {
+            $("#index_change1").load("../page/HomePage.html")
+        })
+
+        $(".caidan").click(function () {
+            $("#index_change1").load("../page/caidan.html")
+        })
+        $(".dingdan").click(function () {
+            $("#index_change1").load("../page/dingdan.html")
+        })
+        $(".gouwuche").click(function () {
+            $("#index_change1").load("../page/gouwuche.html")
+        })
+        $(".wode").click(function () {
+            $("#index_change1").load("../page/wode.html")
+        })
+
+
+
+
+    })
+</script>

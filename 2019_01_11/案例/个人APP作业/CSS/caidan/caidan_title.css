@@ -1,5 +1,5 @@
 #caidan_title {
-    height: 50px;
+    height: 40px;
     display: flex;
     background-color: white;
 }
@@ -9,3 +9,10 @@
     font-size: 15px;
     color: #212121;
  }
+
+.caidan_title_border {
+    border: 1px #DDDDDD solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}

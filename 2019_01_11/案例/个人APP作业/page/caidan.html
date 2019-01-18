@@ -13,6 +13,7 @@
     <link href="../CSS/Home_page/signal.css" rel="stylesheet">
     <link href="../CSS/caidan/index_change.css" rel="stylesheet">
     <link href="../CSS/caidan/common_coffee.css" rel="stylesheet">
+    <link href="../CSS/Home_page/HomePagedown.css" rel="stylesheet">
 
 
 
@@ -25,47 +26,47 @@
     <div id="container" class="">
 
         <!-- 信号层start -->
-        <div class="single">
-            <div id="singleleft" class="">
+        <!--<div class="single">-->
+            <!--<div id="singleleft" class="">-->
 
-                <div id="xinhao" class="">
-                    <div class="single_ok"></div>
-                    <div class="single_ok"></div>
-                    <div class="single_ok"></div>
-                    <div class="single_no"></div>
-                </div>
-                <div id="operator" class="xy_center ">中国移动-中国联通</div>
-            </div>
+                <!--<div id="xinhao" class="">-->
+                    <!--<div class="single_ok"></div>-->
+                    <!--<div class="single_ok"></div>-->
+                    <!--<div class="single_ok"></div>-->
+                    <!--<div class="single_no"></div>-->
+                <!--</div>-->
+                <!--<div id="operator" class="xy_center ">中国移动-中国联通</div>-->
+            <!--</div>-->
 
-            <div id="singlemiddle" class="xy_center">
-                <div id="time">13 : 59</div>
-            </div>
+            <!--<div id="singlemiddle" class="xy_center">-->
+                <!--<div id="time">13 : 59</div>-->
+            <!--</div>-->
 
-            <div id="singleright" class="">
-                <div id="wififrame"class=""></div>
-                <div id="bellframe"></div>
-                <div id="volume"></div>
-                <div id="battery">
-                    <div id="batteryshell"class="">
-                        <div id="batterypower"></div>
-                    </div>
-                    <div id="batteryhead"></div>
-                </div>
-            </div>
-        </div>
+            <!--<div id="singleright" class="">-->
+                <!--<div id="wififrame"class=""></div>-->
+                <!--<div id="bellframe"></div>-->
+                <!--<div id="volume"></div>-->
+                <!--<div id="battery">-->
+                    <!--<div id="batteryshell"class="">-->
+                        <!--<div id="batterypower"></div>-->
+                    <!--</div>-->
+                    <!--<div id="batteryhead"></div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
         <!-- 信号层end -->
 
         <div id="index_change1" class="">
 
                 <!-- 标题行   start -->
-             <div id="caidan_title" class="xy_center">
-            <div id="caidan_title_text" class="xy_center">选择咖啡与小食</div>
+             <div id="caidan_title" class="xy_center caidan_title_border">
+             <div id="caidan_title_text" class="xy_center">选择咖啡与小食</div>
         </div>
                 <!-- 标题行   end -->
 
 
                 <!-- caidan   middle    start -->
-             <div id="caidan_middle" class="">
+            <div id="caidan_middle" class="">
 
             <!-- caidan   middle   left   start -->
             <div id="caidan_middle_left" class="">
@@ -219,15 +220,57 @@
 
 
 
-        </div>
+            </div>
                 <!-- caidan   middle    end -->
 
         </div>
 
-        <div id="caidan_down" class="border"></div>
+        <div class="HomePagedown" style="margin-bottom: 20px">
+            <div class="shouye" style="background-image: url(../img/shouye.jpg)"></div>
+            <div class="caidan" style="background-image: url(../img/caidanpress.jpg)"></div>
+            <div class="dingdan"></div>
+            <div class="gouwuche"></div>
+            <div class="wode"></div>
+        </div>
 
 
     </div>
 
 </body>
 </html>
+
+
+<script src="jquery.js"></script>
+
+<script>
+$(function() {
+
+
+         //各页面元素变化
+
+    $(".shouye").click(function () {
+        $("#index_change1").load("../page/HomePage.html")
+    })
+
+    $(".caidan").click(function () {
+        $("#index_change1").load("../page/caidan.html")
+    })
+    $(".dingdan").click(function () {
+        $("#index_change1").load("../page/dingdan.html")
+    })
+    $(".gouwuche").click(function () {
+        $("#index_change1").load("../page/gouwuche.html")
+    })
+    $(".wode").click(function () {
+        $("#index_change1").load("../page/wode.html")
+    })
+
+
+
+
+})
+</script>
+
+
+
+
