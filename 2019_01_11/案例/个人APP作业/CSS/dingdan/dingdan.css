@@ -14,7 +14,7 @@
 }
 
 #dingdan_state {
-    height: 50px;
+    height: 35px;
     display: flex;
     flex-flow: row;
 }
@@ -24,7 +24,7 @@
 }
 #quanbu_underline {
     position: absolute;
-    height: 50px;
+    height: 35px;
     width: 30px;
 
 }
