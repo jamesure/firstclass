@@ -67,64 +67,44 @@
 
 
 #first_row_right {
-    width: 30%;
+    width: 38%;
+    height: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #first_row_right_middle {
     height:60%;
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
     border-radius: 50px;
-    box-shadow:  inset 0px 0px 2px;
 }
 #leftbutton {
-    height: 80%;
+    height: 95%;
     flex: 1;
-    border-radius: 35px 15px 15px 35px;
-    box-shadow:0px 0px 2px;
-    margin-left: 3px;
+    border-radius: 35px 35px 35px 35px;
+    margin-left: 1px;
     background-color: white;
 }
 
 
 #rightbutton {
-    height: 80%;
+    height: 95%;
     flex: 1;
-    border-radius: 15px 35px 35px 15px;
-    box-shadow:0px 0px 2px;
+    border-radius: 35px 35px 35px 35px;
     margin-right: 3px;
 
 }
 
 
 .first_row_button_text {
-    color: #795548;
+    color: white;
     font-size: 5px;
     font-weight: bold;
 }
-.first_row_button_text:hover {
-    color: white;
-    font-size: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
